@@ -1,0 +1,7 @@
+ROUTE: /openapi.json METHODS: {'HEAD', 'GET'} MODULE: fastapi.applications
+ROUTE: /docs METHODS: {'HEAD', 'GET'} MODULE: fastapi.applications
+ROUTE: /docs/oauth2-redirect METHODS: {'HEAD', 'GET'} MODULE: fastapi.applications
+ROUTE: /redoc METHODS: {'HEAD', 'GET'} MODULE: fastapi.applications
+ROUTE: /tasks METHODS: {'GET'} MODULE: main
+ROUTE: /add-task METHODS: {'POST'} MODULE: main
+ROUTE: /debug/routes METHODS: {'GET'} MODULE: main
